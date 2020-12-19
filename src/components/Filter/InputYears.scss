@@ -1,0 +1,82 @@
+.Inputyears {
+  .Inputyears-container-clear {
+    position: relative;
+  }
+
+  .Inputyears-clear {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    min-height: 20px;
+    border-radius: 16px;
+    padding: 0px 0px 0px 6px !important;
+    top: 3px;
+    right: 3px;
+  }
+
+  .bx--btn--primary {
+    background-color: white;
+    color: black;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .bx--btn--primary:hover {
+    background-color: red;
+    color: white;
+  }
+}
+
+.Inputyears-year {
+  .bx--btn--primary {
+    background-color: white;
+    color: black;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .bx--btn--primary:hover {
+    background-color: red;
+    color: white;
+  }
+}
+
+.Inputyears-year-selected {
+  background-color: red !important;
+  color: white !important;
+  padding: 0px 30px 0px 30px;
+}
+
+.Inputyears-container-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.Inputyears-container-btn {
+  display: block;
+
+  button {
+    border: 1px solid white;
+  }
+}
+
+.Inputyears-container {
+  position: absolute;
+  z-index: 1;
+  right: 32px;
+  display: block;
+  width: 289px;
+}
+
+.Inputyears-prev {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 19px;
+}
+.Inputyears-next {
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 19px;
+}

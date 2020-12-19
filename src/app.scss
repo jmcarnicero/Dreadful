@@ -1,0 +1,20 @@
+.bx--gridbx--grid.bx--grid--full-width {
+  padding: 0px 50px 0px 50px;
+}
+
+a,
+input {
+  outline: 0;
+}
+
+.bx--btn--primary {
+  border: none;
+}
+
+.bx--btn--primary.active {
+  background-color: red;
+}
+
+.bx--btn--primary:hover {
+  background-color: red;
+}

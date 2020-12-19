@@ -1,0 +1,53 @@
+.gridCards {
+  .title {
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+
+  a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  ul.pagination {
+    display: flex;
+    justify-content: flex-start;
+
+    li.active {
+      opacity: 1;
+    }
+
+    li.disabled {
+      visibility: hidden;
+    }
+
+    li {
+      background: red;
+      margin: 6px;
+      color: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      padding: 4px 0px 0px 10px;
+      opacity: 0.5;
+    }
+
+    li:first-child {
+      background: none;
+    }
+    li:last-child {
+      background: none;
+    }
+  }
+}

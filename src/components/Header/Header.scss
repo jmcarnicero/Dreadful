@@ -1,0 +1,72 @@
+.header--btn--logo {
+  background-image: url("./../../assets/logo.png");
+  width: 290px;
+  height: 54px;
+  font-size: 0;
+  background-size: cover;
+  background-color: black;
+}
+
+.header--btn--logo:hover {
+    background-color : black !important
+}
+
+
+.header--btn-right { 
+  margin-left: auto;
+}
+
+.header--btn--movies {
+  background-image: url("./../../assets/icon-movies.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  background-position: 20px 10px;
+  padding: 0px 10px 0px 60px;
+  font-size: 16px;
+}
+
+.header--btn--series {
+  background-image: url("./../../assets/icon-series.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  background-position: 20px 10px;
+  padding: 0px 10px 0px 60px;
+  font-size: 16px;
+}
+
+.header--btn--filters {
+  background-image: url("./../../assets/icon-filter.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  background-position: 23px 14px;
+  padding: 0px 10px 0px 60px;
+  font-size: 16px;
+  height: 54px;
+}
+
+.header--btn--login {
+  background-image: url("./../../assets/icon-login.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  background-position: 60px 17px;
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+  width: 110px;
+  height: 54px;
+
+}
+
+.header--btn--trial {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 10px 0px 10px;
+  margin: 10px 0px 0px 0px;
+  background: red;
+  border-radius: 40px;
+  min-height: 37px;
+  height: 37px;
+}

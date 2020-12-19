@@ -3,18 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
+    "@carbon/grid": "^10.17.0",
+    "@carbon/icons-react": "^10.22.0",
+    "@carbon/themes": "^10.24.0",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "carbon-components": "^10.25.0",
+    "carbon-components-react": "^7.25.0",
+    "carbon-icons": "^7.0.7",
+    "enzyme": "^3.11.0",
     "jest-junit": "^12.0.0",
+    "rc-pagination": "^3.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0"
+    "react-paginate": "^6.5.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "sass": "^1.29.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage --reporters='jest-junit' --coverageDirectory='results/' --watchAll=false"
+    "test": "react-scripts test --coverage --reporters='jest-junit' --coverageDirectory='results/' --watchAll=false",
+    "test2": "react-scripts test "
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +48,13 @@
   },
   "devDependencies": {
     "@stryker-mutator/core": "^4.1.2",
-    "@stryker-mutator/jest-runner": "^4.1.2"
+    "@stryker-mutator/jest-runner": "^4.1.2",
+    "@testing-library/jest-dom": "^5.11.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
+    ]
   }
 }
